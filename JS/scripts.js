@@ -31,7 +31,7 @@ const renderPokemon = async (pokemon) => {
         pokemonImg.src = data['sprites'] ['versions'] ['generation-v'] ['black-white'] ['animated'] ['front_default'];
 
         input.value = ''; 
-        srcPokemon =data.id;
+        srcPokemon = data.id;
     } else {
         pokemonImg.style.display = 'none';
         pokemonName.innerHTML = 'Not found :c';
